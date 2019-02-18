@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel start src/index.pug",
-    "build": "rm -rf dist && parcel build src/index.pug"
+    "build": "rm -rf dist && parcel build src/index.pug --out-dir docs/"
   },
   "author": "ellie",
   "license": "MIT",
