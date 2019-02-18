@@ -1,0 +1,20 @@
+{
+  "name": "press-the-spacebar",
+  "version": "1.0.0",
+  "description": "Press the spacebar",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel start src/index.pug",
+    "build": "rm -rf dist && parcel build src/index.pug"
+  },
+  "author": "ellie",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.11.0",
+    "prettier": "^1.16.4",
+    "pug": "^2.0.3"
+  },
+  "dependencies": {
+    "p5": "^0.7.3"
+  }
+}
